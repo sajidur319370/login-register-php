@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cascadia Code", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #d7d9fa, #575feb);
+  color: #000000;
+}
+
+.container {
+  margin: 0 15px;
+}
+
+.form-box {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 0 20px #000000;
+  display: none;
+}
+
+.form-box.active {
+  display: block;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  background: #d7d9fa;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #d7d9fa;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #575feb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #575feb;
+}
+.error-message {
+  padding: 15px;
+  background: #d7d9fa;
+  border-radius: 10px;
+  color: #fa2302;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.user-admin {
+  text-align: center;
+}
+.name {
+  color: #3902ff;
+}
+.logout {
+  margin-top: 30px;
+  width: 50%;
+}
